@@ -10,17 +10,29 @@ body {
 
 
 div {
-    background: linear-gradient(90deg, rgba(131,58,180,0.4) 0%, rgba(253,29,29,0.6) 1%, rgba(252,176,69,1) 100%);
+    background: linear-gradient(45deg, rgba(80%, 80%, 30%) 25%, #fcb045 50%, #45fcdb 75%, #45fc66 100%);
     text-align: center;
     border: 2px solid blue;
     border-radius: 20px;
-    margin: 20px;
-}
-
-.cat {
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
-    height: 600px;
+}
+
+p {
+    font-size:24px;
+    font-style: oblique;
+    text-shadow: 2px 2px 3px green;
+}
+
+.parent {
+  border: 0.05em solid red;
+  width:100%;
+  display: flex;
+  justify-content: center
+}
+
+.recl {
+   width: 0.1;
+   height: 0.1;
 }
 
